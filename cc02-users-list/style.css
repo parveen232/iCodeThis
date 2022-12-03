@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E2E9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 50px;
+    margin: 0;
+}
+
+.users-list-container {
+    background-color: #fff;
+    padding: 80px;
+    max-width: 1250px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu form {
+    border: 1px solid rgb(187, 192, 215);
+    padding: 16px 10px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#filter {
+    border: none;
+    font-size: 20px;
+}
+
+#filter:focus {
+    outline: none;
+}
+
+.fa-magnifying-glass {
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    padding: 18px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    background-color: rgb(92, 177, 234);
+    color: #fff;
+    outline: none;
+}
+
+.selected {
+    background-color: rgb(92, 177, 234);
+    color: #fff !important;
+}
+
+.cards-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(min(320px), 1fr));
+    margin-top: 50px;
+}
+
+.user-card {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(250, 250, 255);
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.user-card:hover {
+    border: 1px solid rgb(187, 192, 215);
+    box-shadow: 0 5px 10px rgba(187, 192, 215, 0.5);
+}
+
+.profile-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-top: 10px;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.user-info p {
+    margin: 5px 0 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #fff;
+    color: #7687d9;
+    border: 1px solid rgba(118, 135, 217, 0.5);
+    border-radius: 50vh;
+    padding: 1px 8px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 47em) {
+    h1 {
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu form {
+        margin-top: 30px;
+    }
+
+    .users-list-container {
+        padding: 50px;
+    }
+}
