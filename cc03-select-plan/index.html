@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Challenge 03</title>
+</head>
+
+<body>
+    <div class="trial-plan-card">
+        <h1>Choose a trial plan</h1>
+        <div class="plan-card standard-plan">
+            <input type="radio" name="plan" id="standard" value="Standard">
+            <label for="standard">
+                <span class="plan-name">Standard</span>
+                <p>5 TB of space with easy-to-use team managemant and collaboration tools.</p>
+            </label>
+        </div>
+
+        <div class="plan-card advanced-plan">
+            <input type="radio" name="plan" id="advanced" value="Advanced">
+            <label for="advanced">
+                <span class="plan-name">Advanced</span>
+                <p>As much space as your team needs with sophisticated admin, audit, security and integration
+                    capabilities.
+                </p>
+            </label>
+        </div>
+
+        <div class="cbox cbox1">
+            <input type="checkbox" name="terms and privacy policy" id="terms-pp">
+            <label for="terms-pp">
+                I agree to the <a href="">Agreement and Terms</a>. Find out more about how we use and protect your data
+                in
+                our <a href="">Privacy Policy</a>.
+            </label>
+        </div>
+
+        <div class="cbox cbox2">
+            <input type="checkbox" name="email update" id="marketing">
+            <label for="marketing">
+                I'd like to recieve direct marketing email updates.
+            </label>
+        </div>
+
+        <button class="trial-btn">Start free trail</button>
+
+        <span class="nccn">No credit card needed</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
