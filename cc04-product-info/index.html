@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Challenge 04</title>
+</head>
+
+<body>
+    <div class="product-info-card">
+        <div class="product-img-container">
+            <img class="product-img" src="./img/razer-headset.png" alt="razer-headset-product-image">
+        </div>
+        <div class="product-description">
+            <span class="f-ship">Free shipping</span>
+            <h1>Razer Kraken Kitty Edt Gaming Headset Quartz</h1>
+            <div class="price">
+                <span class="old-price">1599,-</span>
+                <span class="new-price">799,-</span>
+            </div>
+            <p class="offer-validity">The offer is valid until January 7 or as long as stock lasts!</p>
+            <button class="atc-btn btn cart-btn">Add to cart</button>
+            <div class="stock">
+                <div class="ball"></div>
+                <p>50+ pcs. in stock.</p>
+            </div>
+            <div class="add-btns-container">
+                <button class="add-btn btn ss-dn-btn cart-btn">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add to cart
+                </button>
+                <button class="add-btn btn wishlist-btn">
+                    <ion-icon name="heart-outline"></ion-icon>
+                    Add to wishlist
+                </button>
+            </div>
+        </div>
+
+        <div class="added atc">
+            <ion-icon name="cart-outline"></ion-icon>
+            <h2>Product added to Cart!</h2>
+        </div>
+        <div class="added atwl">
+            <ion-icon name="heart-outline"></ion-icon>
+            <h2>Product added to Wishlist!</h2>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
