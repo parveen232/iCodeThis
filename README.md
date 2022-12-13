@@ -9,3 +9,4 @@ For coding challenges visit [icodethis](https://www.icodethis.com/)
 | [CC02 Users List](./cc02-users-list)| [Live Demo](https://icodethis.netlify.app/cc02-users-list/index.html)| 
 | [CC03 Select Plan](./cc03-select-plan)| [Live Demo](https://icodethis.netlify.app/cc03-select-plan/index.html)| 
 | [CC04 Product Info](./cc04-product-info/)| [Live Demo](https://icodethis.netlify.app/cc04-product-info/index.html)| 
+| [CC04 My Cart](./cc07-my-cart/)| [Live Demo](https://icodethis.netlify.app/cc07-my-cart/index.html)| 

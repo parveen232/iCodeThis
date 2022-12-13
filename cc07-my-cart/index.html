@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Challenge 07</title>
+</head>
+
+<body>
+    <div class="cart-container">
+        <div class="left">
+            <ion-icon class="cart-icon" name="cart-outline"></ion-icon>
+            <span class="cart-txt">My Cart</span>
+            <div class="items-container">
+                <ul class="items">
+                    <span class="cart-txt">Cart is Empty</span>
+                    <button class="add-btn">Add Items</button>
+                    <li class="selected-item">
+                        <button class="delete-btn">
+                            <ion-icon name="trash-outline"></ion-icon>
+                        </button>
+                        <div class="product-image"></div>
+                        <div class="product-info">
+                            <p>Leather Satchel Bag</p>
+                            <p>Color: Orange and Black</p>
+                            <p>Price: <span class="price">$98.59</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="delete-btn">
+                            <ion-icon name="trash-outline"></ion-icon>
+                        </button>
+                        <div class="product-image"></div>
+                        <div class="product-info">
+                            <p>Sneakers</p>
+                            <p>Color: White and Gray</p>
+                            <p>Price: <span class="price">$79.77</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="delete-btn">
+                            <ion-icon name="trash-outline"></ion-icon>
+                        </button>
+                        <div class="product-image"></div>
+                        <div class="product-info">
+                            <p>Think like a Monk</p>
+                            <p>Author: Jay Shetty</p>
+                            <p>Price: <span class="price">$13.00</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slider-btns-container">
+                <ul class="slider-dots">
+                    <li>
+                        <button class="slider-btn selected-btn"></button>
+                    </li>
+                    <li>
+                        <button class="slider-btn"></button>
+                    </li>
+                    <li>
+                        <button class="slider-btn"></button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="total-price-container">
+                <span class="total">Total</span>
+                <span class="total-price"></span>
+            </div>
+        </div>
+        <div class="right">
+            <span class="pay-heading">Pay with credit card</span>
+            <form class="pay" action="">
+                <label for="card-holder">Name of Card Holder</label>
+                <input type="text" name="card-holder" id="card-holder">
+
+                <label for="txt-cardNumber">Credit Card Number</label>
+                <input type="text" name="txt-cardNumber" id="txt-cardNumber" inputmode="numeric">
+
+                <div class="vt-cvc">
+                    <div class="valid-thru">
+                        <span>Valid Thru</span>
+                        <div>
+                            <select name="Month" id="month" class="vt-select"></select>
+                            <select name="Year" id="year" class="vt-select"></select>
+                        </div>
+                    </div>
+                    <div class="cvc-container">
+                        <label for="txt-cvc">CVC</label>
+                        <input type="text" name="txt-cvc" id="txt-cvc" inputmode="numeric">
+                    </div>
+                </div>
+                <button class="order-btn">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
