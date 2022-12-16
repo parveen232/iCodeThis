@@ -200,3 +200,13 @@ h1 {
         width: 100%;
     }
 }
+
+/* @media (max-width: 420px) {
+    body {
+        padding: 0;
+    }
+
+    .product-info-card {
+        border-radius: 0;
+    }
+} */

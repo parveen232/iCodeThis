@@ -237,7 +237,7 @@ button:active {
     font-weight: 700;
     font-size: 18px;
     appearance: none;
-    background-image: url('./chevron-down-outline.svg');
+    background-image: url('./img/chevron-down-outline.svg');
     background-repeat: no-repeat;
     background-size: 24px;
 }

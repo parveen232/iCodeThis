@@ -1,12 +1,11 @@
 # iCodeThis
 
-My submissions for Coding Challenges by [Florin Pop](https://twitter.com/florinpop1705) from [icodethis](https://www.icodethis.com/).
+My submissions for the Coding Challenges by [Florin Pop](https://twitter.com/florinpop1705) from [iCodeThis](https://twitter.com/iCodeThis).
 
-For coding challenges visit [icodethis](https://www.icodethis.com/)
 
-| Coding Challenge                    | Live Demo                                     | 
-| ----------------------------------- | --------------------------------------------- |
-| [CC02 Users List](./cc02-users-list)| [Live Demo](https://icodethis.netlify.app/cc02-users-list/index.html)| 
-| [CC03 Select Plan](./cc03-select-plan)| [Live Demo](https://icodethis.netlify.app/cc03-select-plan/index.html)| 
-| [CC04 Product Info](./cc04-product-info/)| [Live Demo](https://icodethis.netlify.app/cc04-product-info/index.html)| 
-| [CC04 My Cart](./cc07-my-cart/)| [Live Demo](https://icodethis.netlify.app/cc07-my-cart/index.html)| 
+| #  | Coding Challenge                    | Live Demo                                     | 
+|----| ----------------------------------- | --------------------------------------------- |
+| 01 | [Users List](./cc01-users-list)| [Live Demo](https://icodethis.netlify.app/cc01-users-list/index.html)| 
+| 02 | [Select Plan](./cc02-select-plan)| [Live Demo](https://icodethis.netlify.app/cc02-select-plan/index.html)| 
+| 03 | [Product Info](./cc03-product-info/)| [Live Demo](https://icodethis.netlify.app/cc03-product-info/index.html)| 
+| 04 | [My Cart](./cc04-my-cart/)| [Live Demo](https://icodethis.netlify.app/cc04-my-cart/index.html)| 
