@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: 10vh;
+    padding: 20px;
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 390px;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    background-color: #fff;
+    box-shadow: 5px 0 10px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+@media (max-width: 390px) {
+    .menu {
+        width: 100vw;
+    }
+}
+
+.close {
+    transform: translateX(-100%);
+    box-shadow: none;
+}
+
+.top {
+    width: 100%;
+    height: 150px;
+    padding-left: 5%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+}
+
+.profile-img {
+    width: 85px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid rgb(137, 158, 214);
+    box-shadow: 0 0 100px #ccc;
+    overflow: hidden;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-info {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#profession {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.top-bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+.top-left-bg {
+    left: 0;
+    width: 20%;
+    height: 170px;
+    background-color: #5E80D9;
+    border-radius: 0% 0% 0% 100% / 0% 0% 0% 30%
+}
+
+.top-right-bg {
+    right: 0;
+    margin-left: -1px;
+    width: calc(80% + 1px);
+    height: 170.5px;
+    background-color: #5E80D9;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+}
+
+.ab-btn {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    background-color: #6893ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 20px auto 0;
+    font-size: 17px;
+    font-weight: 400;
+    box-shadow: 0 3px 10px -4px rgba(104, 147, 255, 0.7);
+    transition: background-color 0.3s ease-out;
+}
+
+ion-icon[name="add-outline"] {
+    font-size: 32px;
+}
+
+.ab-btn:hover {
+    background-color: #608dff;
+}
+
+.nav-list {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0 7px;
+}
+
+.nav-list a {
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.nav-list ion-icon {
+    font-size: 32px;
+    color: rgb(165, 165, 165);
+}
+
+.active {
+    border-left: 7px solid #3871ff;
+    transform: translateX(-7px);
+    color: #3871ff;
+}
+
+.active ion-icon {
+    color: inherit;
+}
+
+.active a {
+    color: inherit;
+}
+
+.hover a {
+    color: #3871ff;
+}
+
+.hover ion-icon {
+    color: inherit;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: transparent;
+    color: rgb(133, 133, 133);
+    border: none;
+    border-radius: 50%;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-out;
+}
+
+.close-btn:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:focus,
+button:active {
+    outline: none;
+}
